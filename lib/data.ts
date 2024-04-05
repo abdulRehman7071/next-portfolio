@@ -35,28 +35,28 @@ export const links = [
 
 export const experiencesData = [
   {
-    title: "Graduated bootcamp",
-    location: "Miami, FL",
+    title: "Full Stack Developer",
+    location: "Wohlig Transformation",
     description:
-      "I graduated after 6 months of studying. I immediately found a job as a front-end developer.",
-    icon: React.createElement(LuGraduationCap),
-    date: "2019",
+      "Built scalable e-commerce frontend for fantasy sports, enabling seamless point redemption. Led engineering for dynamic news portal similar to Cricbuzz, providing real-time updates with engaging UX. Implemented authentication with Cognito, integrated AI feedback like ChatGPT. Led teams in crafting flawless websites and managed complex full-stack projects for cohesive user experiences.",
+    icon: React.createElement(CgWorkAlt),
+    date: "2023 - Present",
   },
   {
     title: "Front-End Developer",
-    location: "Orlando, FL",
+    location: "Topcentile",
     description:
-      "I worked as a front-end developer for 2 years in 1 job and 1 year in another job. I also upskilled to the full stack.",
-    icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
+      "Crafted a Profile Management web app catering to both students and professionals. Allows registration of personal details, visible to admins for team assignments and feedback. Engaged in numerous diverse projects, utilizing React, Redux, HTML, CSS, JavaScript, Material UI, and SCSS functionalities.",
+    icon: React.createElement(FaReact),
+    date: "2022 - 2023",
   },
   {
-    title: "Full-Stack Developer",
-    location: "Houston, TX",
+    title: "Bachelor of Engineering",
+    location: "Don Bosco Institute of Technology",
     description:
-      "I'm now a full-stack developer working as a freelancer. My stack includes React, Next.js, TypeScript, Tailwind, Prisma and MongoDB. I'm open to full-time opportunities.",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+      "Don Bosco Tech grad with BE. Led as Cultural Secretary, organizing events, while diving into Robotics, Drama, and NSS.",
+    icon: React.createElement(LuGraduationCap),
+    date: "2018 - 2022",
   },
 ] as const;
 
@@ -65,7 +65,7 @@ export const projectsData = [
     title: "CorpComment",
     description:
       "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Prisma"],
+    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Tailwind"],
     imageUrl: corpcommentImg,
   },
   {
@@ -94,7 +94,7 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Prisma",
+  "Tailwind",
   "MongoDB",
   "Redux",
   "GraphQL",
