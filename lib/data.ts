@@ -2,9 +2,9 @@ import React from "react";
 import { CgWorkAlt } from "react-icons/cg";
 import { FaReact } from "react-icons/fa";
 import { LuGraduationCap } from "react-icons/lu";
-import corpcommentImg from "@/public/corpcomment.png";
-import rmtdevImg from "@/public/rmtdev.png";
-import wordanalyticsImg from "@/public/wordanalytics.png";
+import cryptoStream from "@/public/crypto-stream.png";
+import digiShop from "@/public/digishop.png";
+import reviewHub from "@/public/review-hub.png";
 
 export const links = [
   {
@@ -62,25 +62,25 @@ export const experiencesData = [
 
 export const projectsData = [
   {
-    title: "CorpComment",
+    title: "Crypto Stream",
     description:
-      "I worked as a full-stack developer on this startup project for 2 years. Users can give public feedback to companies.",
-    tags: ["React", "Next.js", "MongoDB", "Tailwind", "Tailwind"],
-    imageUrl: corpcommentImg,
+      "Developed a real-time cryptocurrency tracking application using React and Material UI.",
+    tags: ["React", "Material UI", "Framer", "Chartjs"],
+    imageUrl: cryptoStream,
   },
   {
-    title: "rmtDev",
+    title: "Digi Shop",
     description:
-      "Job board for remote developer jobs. I was the front-end developer. It has features like filtering, sorting and pagination.",
-    tags: ["React", "TypeScript", "Next.js", "Tailwind", "Redux"],
-    imageUrl: rmtdevImg,
+      "Designed and built an ecommerce web application from front to back utilizing MongoDB, Express, React, Node.js (MERN)",
+    tags: ["React", "Next.js",  "Redux", "Tailwind", "Express", "MongoDB" ],
+    imageUrl: digiShop,
   },
   {
-    title: "Word Analytics",
+    title: "Review Hub",
     description:
-      "A public web app for quick analytics on text. It shows word count, character count and social media post limits.",
-    tags: ["React", "Next.js", "SQL", "Tailwind", "Framer"],
-    imageUrl: wordanalyticsImg,
+      "Created a platform for users to share movie and web series reviews with upload and OTP authentication functionality.",
+    tags: ["React", "Firebase", "Tailwind"],
+    imageUrl: reviewHub,
   },
 ] as const;
 
@@ -94,14 +94,8 @@ export const skillsData = [
   "Node.js",
   "Git",
   "Tailwind",
-  "Tailwind",
   "MongoDB",
   "Redux",
-  "GraphQL",
-  "Apollo",
   "Express",
-  "PostgreSQL",
-  "Python",
-  "Django",
   "Framer Motion",
 ] as const;
