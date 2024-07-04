@@ -46,7 +46,7 @@ export const experiencesData = [
     title: "Front-End Developer",
     location: "Topcentile",
     description:
-      "Crafted a Profile Management web app catering to both students and professionals. Allows registration of personal details, visible to admins for team assignments and feedback. Engaged in numerous diverse projects, utilizing React, Redux, HTML, CSS, JavaScript, Material UI, and SCSS functionalities.",
+      "Employee Information: Manage and track employee details with CRUD operations. Leave Management: Streamline leave requests, approvals, and balances. Attendance Tracking: Monitor and record attendance with manual entry options. Performance Evaluation: Facilitate goal setting, evaluations, and analytics.",
     icon: React.createElement(FaReact),
     date: "2022 - 2023",
   },
@@ -54,7 +54,7 @@ export const experiencesData = [
     title: "Bachelor of Engineering",
     location: "Don Bosco Institute of Technology",
     description:
-      "Don Bosco Tech grad with BE. Led as Cultural Secretary, organizing events, while diving into Robotics, Drama, and NSS.",
+      "At Don Bosco Institute of Technology, I earned my Bachelor of Engineering (B.E.) from August 2018 to June 2022 in Mumbai, India. During this time, I served as Cultural Secretary, Event and PR Marketing Head for the Entrepreneurship Cell, and a team member in Robocon 2020. I also participated in the Drama Club and the National Service Scheme, enhancing my leadership, teamwork, and community service skills.",
     icon: React.createElement(LuGraduationCap),
     date: "2018 - 2022",
   },
